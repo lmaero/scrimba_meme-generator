@@ -1,0 +1,75 @@
+.main {
+  background-color: hsl(0, 0%, 100%);
+  padding: 35px;
+}
+
+.form {
+  display: grid;
+  gap: 15px;
+  grid-template: 40px 40px / 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.form__input, .form__button {
+  border-radius: 5px;
+}
+
+.form__input {
+  border: 1px solid hsl(255, 5%, 85%);
+  color: hsl(0, 0%, 5%);
+  font-size: 12px;
+  text-indent: 10px;
+}
+
+.form__button {
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  grid-column: 1 / -1;
+  letter-spacing: -1px;
+}
+
+.main__img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.img__container {
+  position: relative;
+}
+
+.meme-text {
+  color: white;
+  font-family: impact, sans-serif;
+  font-size: 30px;
+  left: 50%;
+  margin: 15px 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.meme-text {
+  text-shadow: 2px 2px 0 #000000,
+  -2px -2px 0 #000000,
+  2px -2px 0 #000000,
+  -2px 2px 0 #000000,
+  0 2px 0 #000000,
+  2px 0 0 #000000,
+  0 -2px 0 #000000,
+  -2px 0 0 #000000,
+  2px 2px 5px #000000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
